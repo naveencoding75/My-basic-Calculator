@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="cal.css">
+    </head>
+    <body>
+        <div class="body-part">
+            <div class="display">
+                <p class="result nums"></p>
+                <p class="result2 resus"></p>
+            </div>
+            <div class="numbers-arrange">
+                <button class="numbers" onclick="
+                    numAssign('1');
+                    num = '1';
+                ">1</button>
+                <button class="numbers" onclick="
+                    numAssign('2');
+                ">2</button>
+                <button class="numbers" onclick="
+                    numAssign('3');
+                ">3</button>
+                <button class="numbers" onclick="
+                    numAssign('+');
+                ">+</button>
+                <button class="numbers" onclick="
+                    numAssign('4');
+                ">4</button>
+                <button class="numbers" onclick="
+                    numAssign('5');
+                ">5</button>
+                <button class="numbers" onclick="
+                    numAssign('6');
+                ">6</button>
+                <button class="numbers" onclick="
+                    numAssign('-');
+                ">-</button>
+                <button class="numbers" onclick="
+                    numAssign('7');
+                ">7</button>
+                <button class="numbers" onclick="
+                    numAssign('8');
+                ">8</button>
+                <button class="numbers" onclick="
+                    numAssign('9');
+                ">9</button>
+                <button class="numbers" onclick="
+                    numAssign('*');
+                ">*</button>
+                <button class="numbers" onclick="
+                    numAssign('0');
+                ">0</button>
+                <button class="numbers" onclick="
+                    numAssign('.');
+                ">.</button>
+                <button class="numbers" onclick="
+                    numAssign('=');
+                    calculate();
+                ">=</button>
+                <button class="numbers" onclick="
+                    numAssign('/');
+                ">/</button>
+                <button class="clear" onclick="
+                    clearit();
+                ">Clear</button>
+            </div>
+        </div>
+        <script src="cal.js"></script>
+    </body>
+</html>

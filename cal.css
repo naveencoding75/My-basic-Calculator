@@ -1,0 +1,60 @@
+.body-part{
+    margin: 250px 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: bisque;
+    width: 400px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.display{
+    margin: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    min-height: 65px;
+    border-radius: 10px;
+    cursor:text;
+}
+.result-css{
+    color: aquamarine;
+}
+.ans-store{
+    width: 300px;
+    height: 60px;
+}
+.nums{
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0;
+}
+.resus{
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0;
+}
+.numbers-arrange{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.clear, .numbers{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius:30px ;
+    border-style: solid;
+    background-color: rgb(88, 85, 85);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.clear{
+    font-size: 15px;
+}
